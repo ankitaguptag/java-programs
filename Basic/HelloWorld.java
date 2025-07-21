@@ -1,6 +1,6 @@
 public class HelloWorld
 {
-public static void Main(sting[] s)
+public static void main(String[] s)
 {
 System.out.println("Hello World and Hi Ankita");
 }

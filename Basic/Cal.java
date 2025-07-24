@@ -17,16 +17,19 @@ public class Cal {
             
             ch = obj.nextInt();
             
-            if (ch== 5) {
-                System.out.println("Exiting the calculator");
-                break;
-            }
-            
             System.out.print("Enter first number: ");
             a = obj.nextInt();
+    if(a<0){
+        System.out.println("please enter the positive number");
+        break;
+}
+
             System.out.print("Enter second number: ");
             b = obj.nextInt();
-            
+  if(b<0){
+        System.out.println("please enter the positive number");
+        break;
+}           
             switch (ch) {
                 case 1:
                     result=a+b;
@@ -44,7 +47,11 @@ public class Cal {
                     result=a/b;
                         System.out.println("Result: " + result);
                     break;
-                default:
+            case 5:
+                System.out.println("Exiting the calculator");
+                break;
+      
+            default:
                     System.out.println("Invalid choice");
                     break;
             }

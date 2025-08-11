@@ -1,10 +1,10 @@
 class A{
   int a;
   String name;
-A(){  
+/*A(){  
   a=0;
   name=null;
-}
+}*/
 void show(){
   System.out.println(a + " " + name);
 }

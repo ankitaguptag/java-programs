@@ -7,7 +7,7 @@ public class Swap {
         System.out.println("Before swapping");
         System.out.println("First number = " + first);
         System.out.println("Second number = " + second);
-        temp = first;
+        temp = first; 
         first = second;
         second = temp;
 

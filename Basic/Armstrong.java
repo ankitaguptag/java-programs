@@ -1,9 +1,12 @@
+import java.util.Scanner;
 public class Armstrong {
     public static void main(String[] args) {
-        int num = 153; 
-        int original = num;
+        int num ; 
         int sum = 0;
-
+  System.out.println("enter a number");
+  Scanner r=new Scanner(System.in);
+  num=r.nextInt();
+  int original = num;
         while (num > 0) {
             int digit = num % 10;
             sum = sum + (digit * digit * digit); 

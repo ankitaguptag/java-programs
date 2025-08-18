@@ -1,4 +1,4 @@
-class Student{
+crtlass Student{
 protected int roll,marks;
 String name;
 protected void input(){
